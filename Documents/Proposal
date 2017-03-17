@@ -14,7 +14,7 @@ Standard API Usage limit: Link
 2.	640 x 640 maximum image resolution
 Plan of work:
 1.	Identify Location – Small city / Area / region
-2.	What to predict? (See ideas below)
+2.	What to predict? (See ideas below) Wealth, then age and sex, 
 3.	Get data set for target location
 4.	Get images of target location
 a.	Image segmentation? Overlapping images or not?
