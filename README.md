@@ -2,7 +2,7 @@
 Authors: [Nikhil Binod Agarwal](https://github.com/nikhilba) and [Tina Hong Bu](https://github.com/TinaHongBu), under the guidance of [Prof. Zico Kolter](http://zicokolter.com/), Carnegie Mellon University.
 
 # Status
-This ongoing project is expected to be completed by the end of April 2017.
+This is an ongoing project.
 
 Code is contained in the Code/ directory (iPython Notebooks) and Data (except Satellite Images) is contained in the Dataset/ directory.
  1. Downloading Satellite Images [COMPLETED] - Code/ImageDownload.ipynb
@@ -10,13 +10,15 @@ Code is contained in the Code/ directory (iPython Notebooks) and Data (except Sa
  3. Classifying Images [In Progress] - Code/Aerial_Imagery_Deep_Learning.ipynb
 
 # Required Package
-So far, following packages have been used to run the code in this repo:
+Following packages have been used to run the code in this repo:
  - geopandas
  - shapely
  - fiona
  - matplotlib
  - seaborn
  - pandas
+ - numpy
+ - bcolz
 
 Deep Learning Packages:
  - Keras
@@ -45,5 +47,3 @@ We create a unique dataset from scratch using the open source infomation of the 
 
 # Modeling
 We use a VGG-16 model with weights pre-trained on ImageNet, but we drop the last two dense and dropout layers. We then generate useful image features from the truncated VGG-16 Model. In the end, we classify the images by income level.
-
-
